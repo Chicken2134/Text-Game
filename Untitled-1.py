@@ -1,1 +1,0 @@
-print("Welcome daring explorers, to the outskirts of Kalvian")

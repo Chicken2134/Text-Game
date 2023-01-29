@@ -1,4 +1,10 @@
-python
+<<<<<<< HEAD:Untitled-1.py
+print("Welcome daring explorers, to the outskirts of Kalvian")
+=======
+
+from tkinter import LEFT, RIGHT
+
+
 if __name__ == "__main__":
   while True:
     Print("Welcome to Exarila, the Empire of the west.")
@@ -9,7 +15,7 @@ Print(Good Luck +name+)
 IntroScene()
 
 def introScene():
-directions = [Left, Right]
+directions = [LEFT, RIGHT]
 while userInput not in directions:
     print("Options: left/right/backward/forward")
     userInput = input()
@@ -25,7 +31,7 @@ while userInput not in Options:
 print ("Kill, Leave")
 userInput = ""
 if (userInput == Kill)
-showBattlescene()
+Battlescene()
 elif userInput == Leave
 Leave()
 
@@ -33,21 +39,9 @@ def Battlescene():
 print("Stay back!" yells the wounded man in fear.)
 print("Guards, Seize Him!" Yelled the Man for backup)
 print(The guards grab your arms and knock you out.)
-showTheDungeon()
+TheDungeon()
 
 Def Leave():
 print(You Leave)
 print(You end your adventure)
-
-def TheDungeon():
-print (You awaknen in a dungeon.)
-print("Get up!" yelled the prison guard while dragging you away.)
-print(You are dragged to the gallows, where you will be hung.)
-print(Type Run, or Accept fate)
-userInput == ""
-if(userInput = Run):
-ShowEscape()
-
-
-
-   
+>>>>>>> 42b1c1fb9865633640e787ec2456a1a29a6bd1ff:Main.py
