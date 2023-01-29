@@ -37,6 +37,8 @@ TheDungeon()
 
 Def Leave():
 print(You Leave)
+print(You end your adventure)
+
 
 
    
