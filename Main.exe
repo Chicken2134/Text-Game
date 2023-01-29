@@ -25,7 +25,7 @@ while userInput not in Options:
 print ("Kill, Leave")
 userInput = ""
 if (userInput == Kill)
-Battlescene()
+showBattlescene()
 elif userInput == Leave
 Leave()
 
@@ -33,11 +33,20 @@ def Battlescene():
 print("Stay back!" yells the wounded man in fear.)
 print("Guards, Seize Him!" Yelled the Man for backup)
 print(The guards grab your arms and knock you out.)
-TheDungeon()
+showTheDungeon()
 
 Def Leave():
 print(You Leave)
 print(You end your adventure)
+
+def TheDungeon():
+print (You awaknen in a dungeon.)
+print("Get up!" yelled the prison guard while dragging you away.)
+print(You are dragged to the gallows, where you will be hung.)
+print(Type Run, or Accept fate)
+userInput == ""
+if(userInput = Run):
+ShowEscape()
 
 
 
