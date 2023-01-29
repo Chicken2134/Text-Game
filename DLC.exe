@@ -6,4 +6,4 @@ while userInput is not Yes:
 print(Enter Yes to continue.)
 if userInput == Yes:
 print(Welcome Adventurer to the Outskirks of Skanavia.)
-print(DlC WIP, Please exit until finished.)
+print(DLC WIP, Please exit until finished.)
