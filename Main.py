@@ -7,4 +7,5 @@ while userinput is not Go:
     if Go is 1: 
         print("Welcome to the adventure, please click 2 to continue")
         UserInput = ""
+        #Bugs are here ^
 
